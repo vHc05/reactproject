@@ -1,0 +1,36 @@
+.header {
+  text-align: center;
+  background-color: #006e84;
+  padding: 1em;
+  color: black;
+}
+
+.logo {
+  width: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  margin: 0.2em;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #20cf9b;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #2f4858;
+}
+
+button:hover {background-color: #00b799}
+
+button:active {
+  background-color: #00b799;
+  box-shadow: 0 5px #2f4858;
+  transform: translateY(4px);
+}

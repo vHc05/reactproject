@@ -1,0 +1,16 @@
+import "./Header.css";
+
+function Header() {
+  return (
+    
+    <div className="header">
+      <img className="logo" src="../../../logo.ico"></img>
+      <a href="/home"><button>Inicio</button></a>
+      <a href="/gallery"><button>Galeria</button></a>
+      <button>Rutas</button>
+    </div>
+    
+  )
+}
+
+export default Header;
