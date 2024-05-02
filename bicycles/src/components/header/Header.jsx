@@ -7,7 +7,7 @@ function Header() {
       <img className="logo" src="../../../logo.ico"></img>
       <a href="/home"><button>Inicio</button></a>
       <a href="/gallery"><button>Galeria</button></a>
-      <button>Rutas</button>
+      <a href="/route"><button>Rutas</button></a>
     </div>
     
   )

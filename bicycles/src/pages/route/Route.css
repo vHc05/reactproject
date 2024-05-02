@@ -1,0 +1,16 @@
+.route-h1{
+  margin: 1em;
+  padding: 1em;
+}
+
+.iframe-container {
+  display: flex; /* Activar flexbox */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente si se desea */
+  height: 100vh; /* O cualquier altura adecuada */
+}
+
+.route-iframe {
+  width: 500px;
+  height: 600px;
+}

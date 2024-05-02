@@ -12,7 +12,7 @@ function Fotos() {
 
       {
         fotos.map((foto)=>(
-          <img src={`/fotos/${foto.src}`} alt="Error al cargar la imagen " className="array-images" />
+          <img src={`/fotos/${foto.src}`} alt="Error al cargar la imagen " className="gallery-array-images" />
         ))
       }
       <Footer />

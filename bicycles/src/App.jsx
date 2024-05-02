@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Gallery from "./pages/gallery/Gallery";
 import Cookies from "./pages/terms/Cookies";
 import Terms from "./pages/terms/Terms";
+import Routeishon from "./pages/route/Route";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/terms+and+conditions" element={<Terms />} />
         <Route path="/cookies" element={<Cookies />} />
+        <Route path="/route" element={<Routeishon />} />
       </Routes>
     </BrowserRouter>
   )
