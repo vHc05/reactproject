@@ -1,8 +1,60 @@
-footer {
+.footerBody {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.footer {
+  background: #006e84;
+  padding: 30px 0px;
   text-align: center;
-  background-color: #006e84;
-  padding: 1em;
   color: aliceblue;
+}
+
+.footer .footerRow {
+  width: 100%;
+  margin: 1% 0%;
+  padding: 0.6% 0%;
+  font-size: 0.8em;
+}
+
+.footer .footerRow a {
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.footer .footerRow a:hover {
+  color: #fff;
+}
+
+.footer .footerRow ul {
+  width: 100%;
+}
+
+.footer .footerRow ul li {
+  display: inline-block;
+  margin: 0px 30px;
+}
+
+.footer .footerRow a i {
+  font-size: 2em;
+  margin: 0% 1%;
+}
+
+@media (max-width:720px) {
+  .footer {
+    text-align: left;
+    padding: 5%;
+  }
+
+  .footer .footerRow ul li {
+    display: block;
+    margin: 10px 0px;
+    text-align: left;
+  }
+
+  .footer .footerRow a i {
+    margin: 0% 3%;
+  }
 }
 
 .links {
