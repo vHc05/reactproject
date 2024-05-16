@@ -1,8 +1,21 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Ruta del Agua Telde ReactJS test page
 
-Currently, two official plugins are available:
+This page documents an excursion done by my high-school.
+This page also have some of the photos taken in that excursion, and as well contains the route taken for everyone else who wants to go all over it.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+
+## Authors
+
+- [@vHc05](https://github.com/vHc05)
+
+
+## Acknowledgements
+
+ - [README.SO](https://readme.so/es)
+ - [W3Schools](https://www.w3schools.com/react/)
+ - [REFERENCE](https://ruta-del-agua.vercel.app/)
+
+
