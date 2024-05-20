@@ -6,6 +6,7 @@ import Cookies from "./pages/terms/Cookies";
 import Terms from "./pages/terms/Terms";
 import Routeishon from "./pages/route/Route";
 import ContactUs from "./pages/contactUs/ContactUs";
+// import News from "/news.xml";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/cookies" element={<Cookies />} />
         <Route path="/route" element={<Routeishon />} />
         <Route path="/contact" element={<ContactUs />} />
+        {/* <Route path="/noticias" element={<News />} /> */}
       </Routes>
     </BrowserRouter>
   )

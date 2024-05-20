@@ -42,6 +42,11 @@
   box-shadow: 0 9px #2f4858;
 }
 
+.contact-text {
+  margin: 0.2em;
+  font-size: large;
+}
+
 .contact-form-button:hover {background-color: #00b799}
 
 .contact-form-button:active {

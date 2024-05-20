@@ -26,6 +26,6 @@ const db = getFirestore(app)
 export { db }
 
 export default {
-  storage,
+
   db
 }
